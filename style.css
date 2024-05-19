@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 22px;
+    background-color: #F3D7B7;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+
+
+.simply {
+    background-color: #F3D7B7;
+    padding: 65px 0;
+    height: 624px;
+}
+
+.simply .container {
+    display: flex;
+    gap: 216px;
+    align-items: center;
+}
+
+
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    font-style: normal;
+}
+
+p {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    margin: 47px 0;
+}
+
+.btn {
+    width: 193px;
+    height: 51px;
+    padding: 16px 24px 16px 24px;
+    border-radius: 100px;
+    background-color: #0A775F;
+    color: white;
+    border: none;
+}
+
+
+.img1 {
+    width: 610px;
+
+}
+
+.info {
+    max-width: 464px;
+}
+
+.img2 {
+    position: absolute;
+    top: 39px;
+    left: 652px;
+}
+
+.h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 58.59px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.kopi1 {
+    width: 465.31px;
+    height: 375px;
+    transition: 3s;
+}
+
+
+
+.kopi1:hover {
+    transform: scale(1.2) rotate(-2deg);
+    transition: 1s;
+}
+
+.p2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #333333;
+
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56.25px;
+    color: #333333;
+}
+
+.ota {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin-top: 42px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.kopi2:hover {
+    transform: scale(1.2) rotate(2deg);
+    transition: 1s;
+}
+
+footer {
+    padding: 55px;
+    background-color: #F3D7B7;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+i {
+    font-size: 30px;
+    color: #333333;
+}
